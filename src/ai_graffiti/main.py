@@ -1,8 +1,8 @@
 import cv2
 import time
-from .config import HAND_MODEL_COMPLEXITY
-from .gesture_engine import GestureEngine
-from .painting_engine import PaintingEngine
+from config import HAND_MODEL_COMPLEXITY
+from gesture_engine import GestureEngine
+from painting_engine import PaintingEngine
 
 class MainApp:
     """

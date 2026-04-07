@@ -2,8 +2,8 @@ import cv2
 import math
 import numpy as np
 import mediapipe as mp
-from .contracts import GestureState
-from .config import PINCH_THRESHOLD, EMA_ALPHA, HAND_MODEL_COMPLEXITY, CANVAS_SIZE
+from contracts import GestureState
+from config import PINCH_THRESHOLD, EMA_ALPHA, HAND_MODEL_COMPLEXITY, CANVAS_SIZE
 
 class GestureEngine:
     """

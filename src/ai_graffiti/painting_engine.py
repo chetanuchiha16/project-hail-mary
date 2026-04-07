@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-from .contracts import GestureState
-from .config import CANVAS_SIZE, SPRAY_PARTICLES
+from contracts import GestureState
+from config import CANVAS_SIZE, SPRAY_PARTICLES
 
 class PaintingEngine:
     """
