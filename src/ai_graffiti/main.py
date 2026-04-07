@@ -1,6 +1,5 @@
 import cv2
 import time
-from config import HAND_MODEL_COMPLEXITY
 from gesture_engine import GestureEngine
 from painting_engine import PaintingEngine
 
@@ -64,6 +63,7 @@ class MainApp:
                 self.painting_engine.clear_canvas()
 
         self.cap.release()
+        self.gesture_engine.close()
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
